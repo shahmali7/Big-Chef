@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Lato:wght@300&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@200;400&display=swap');*{
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0a071a;
+}
+h1,h2{
+    color: #f5b70a;
+    font-family: 'Poppins';
+}
+a{
+    font-family: 'Open Sans';
+}
+button{
+    font-family: 'Lato';
+}
+p{
+    font-family: 'Edu SA Beginner';
+}

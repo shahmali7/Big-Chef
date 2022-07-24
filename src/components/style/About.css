@@ -1,0 +1,32 @@
+.About{
+    margin-top: 140px;
+    width: 100%;
+}
+.About-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+.About-info{
+    max-width: 700px;
+    margin-right: 40px;
+}
+@media (max-width:768px) {
+    .About-us{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+}
+@media (max-width:468px){
+    .About-us{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .about-image{
+        width: 320px;
+        
+    }
+}

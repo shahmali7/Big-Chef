@@ -1,0 +1,83 @@
+.slider{
+    width: 90%;
+}
+.slider-map{
+    clear: both;
+}
+.car-left{
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.car-right{
+    float: right;
+}
+.car-left > p {
+   font-size: 1.3rem;
+   margin: 20px auto;
+}
+.car-left > button{
+    height: 37px;
+    width: 170px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid gold;
+    color: gold;
+    transition: all 0.3s linear 0s;
+}
+.car-left > button:hover{
+    color: white;
+    border: none;
+    padding-bottom: 7px;
+    border-bottom: 1.5px solid gold;
+}
+.car-image{
+    width: 500px;
+    height: 350px;
+}
+@media (max-width:1200px){
+    .car-image{
+        width: 400px;
+        height: 350px;
+    }
+}
+@media (max-width:980px){
+    .car-image{
+        margin-left: 35px;
+    }
+}
+@media (max-width:520px){
+    .slider{
+        width: 80%;
+    }
+    .car-image{
+        width: 400px;
+        height: auto;
+        margin-right: 0;
+    }
+}
+@media (max-width:468px){
+    .slider{
+        width: 80%;
+    }
+    .car-image{
+        width: 300px;
+        height: auto;
+    }
+    .car-left{
+        margin-left: 20px;
+    }
+}
+@media (max-width:350px){
+    .slider{
+        width: 80%;
+    }
+    .car-image{
+        width: 200px;
+        height: auto;
+    }
+}

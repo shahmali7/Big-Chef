@@ -1,0 +1,112 @@
+.card-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 35px;
+}
+.Card{
+    max-width: 300px;
+    border: 1px solid gold;
+    text-align: center;
+    justify-content: center;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.rate{
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+.stars{
+    transition: all 0.5s; 
+    color: white;
+    cursor: pointer;
+}
+.stars:hover{
+    color: gold;
+
+}
+.Card > p{
+    max-width: 70%;
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.Card > h2 {
+    margin: 10px auto;
+    text-align: center;
+}
+.Card > h3 {
+    color: gold;
+    margin: 10px auto;
+}
+.item-image{
+    width: 70%;
+    height: 250px;
+    border-radius: 13px;
+}
+.buttons{
+    margin: 15px auto;
+}
+.Order{
+    margin-right: 15px;
+    width: 120px;
+    height: 35px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gold;
+    text-transform: capitalize;
+    border: 1.3px solid gold;
+    background-color:transparent;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s linear 0s;
+}
+.Order:hover{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.adder{
+    background-color: transparent;
+    height: 35px;
+    width: 30px;
+    margin-left: 20px;
+    border: none;
+    color: gold;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+@media screen and (max-width:1200px) {
+    .card-list{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .Order{
+        margin-right: 5px;
+    }
+    .buttons{
+        margin: 25px 20px;
+    }
+}
+@media screen and (max-width:970px) {
+    .card-list{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .card-list{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:468px) {
+    .card-list{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 10px;
+    }
+}

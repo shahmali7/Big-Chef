@@ -1,0 +1,78 @@
+.Download{
+    background-color: gold;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    height: 100%;
+    margin-left: 10%;
+    border-radius: 40px;
+}
+h3{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.first{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 20px auto;
+}
+.Buttons-app{
+    margin-top: 20px;
+}
+.iphone{
+    height: 40px;
+    width: 140px;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.market{
+    height: 40px;
+    width: 140px;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    border: none;
+    color: black;
+    background: white;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+@media (max-width:1005px){
+    .Download{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+@media (max-width:825px){
+    .Download{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 120px auto;
+    }
+    .download-content{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .d-image{
+        max-width: 80%;
+    }
+    .Buttons-app > button{
+       margin-top: 10px;
+    }
+}
